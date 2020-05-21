@@ -1,18 +1,18 @@
 {% set name = "datamatrix" %}
 {% set pypiname = "python-" + name %}
-{% set version = "0.10.15" %}
+{% set version = "0.10.17" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz"
-  sha256: "91130cd96cd8c8b7852060cccc914881f848a36f488c8d3fbf58eac47386e60a"
+  url: https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz
+  sha256: f67e97f99172f133bce076b4a09d536e9b1bb5128afaa8dfe0a9c591b21099d7
 
 build:
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   number: 0
 
 requirements:
@@ -43,7 +43,7 @@ about:
   license: GPLv3
   license_family: GPL
   license_file: LICENSE
-  summary: 'An intuitive, Pythonic way to work with tabular data'
+  summary: An intuitive, Pythonic way to work with tabular data
   doc_url: https://datamatrix.cogsci.nl
   dev_url: https://github.com/smathot/python-datamatrix
 
