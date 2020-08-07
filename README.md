@@ -5,7 +5,7 @@ Home: https://github.com/smathot/python-datamatrix
 
 Package license: GPLv3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An intuitive, Pythonic way to work with tabular data
 
