@@ -1,6 +1,6 @@
 {% set name = "datamatrix" %}
 {% set pypiname = "python-" + name %}
-{% set version = "0.11.1" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz
-  sha256: a938e8748ae392909f5500dddbbe47771ffc6ce799f744a85a0756fc5d80bcb2
+  sha256: da9a28acacb980cdff1f82b8b99edb7bbab2159ef8f740eb7e6a1afb7670e3aa
 
 build:
   noarch: python
@@ -18,9 +18,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - openpyxl
     - fastnumbers
     - prettytable
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/smathot/python-datamatrix
-  license: GPLv3
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: An intuitive, Pythonic way to work with tabular data
