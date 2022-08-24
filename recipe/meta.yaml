@@ -1,6 +1,6 @@
 {% set name = "datamatrix" %}
 {% set pypiname = "python-" + name %}
-{% set version = "0.15.1" %}
+{% set version = "0.15.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz
-  sha256: 52ab7e9db514d840eb761b09e82e32c68fb3a7cf34514f08a429fd99b37b461a
+  sha256: 7411ecce0a7f67c16422e04d2ba4a8630701504fa4061e71b4f6763c1e02cd42
 
 build:
   noarch: python
