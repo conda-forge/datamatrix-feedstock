@@ -1,7 +1,7 @@
 About datamatrix
 ================
 
-Home: https://github.com/smathot/python-datamatrix
+Home: https://github.com/open-cogsci/datamatrix
 
 Package license: GPL-2.0-or-later
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datamatrix-feed
 
 Summary: An intuitive, Pythonic way to work with tabular data
 
-Development: https://github.com/smathot/python-datamatrix
+Development: https://github.com/open-cogsci/datamatrix
 
-Documentation: https://datamatrix.cogsci.nl
+Documentation: https://pydatamatrix.eu
 
 Current build status
 ====================
@@ -149,4 +149,3 @@ Feedstock Maintainers
 
 * [@dschreij](https://github.com/dschreij/)
 * [@smathot](https://github.com/smathot/)
-
