@@ -1,11 +1,11 @@
-About datamatrix
-================
+About datamatrix-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datamatrix-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-cogsci/datamatrix
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datamatrix-feedstock/blob/main/LICENSE.txt)
 
 Summary: An intuitive, Pythonic way to work with tabular data
 
@@ -149,3 +149,4 @@ Feedstock Maintainers
 
 * [@dschreij](https://github.com/dschreij/)
 * [@smathot](https://github.com/smathot/)
+
